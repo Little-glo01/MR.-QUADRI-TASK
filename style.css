@@ -1,0 +1,258 @@
+body {
+    background-color: aliceblue;
+    font-size: 13px;
+}
+.container1 {
+    background-color: #FAf7F2;
+    margin: auto;
+    padding: 30px;
+    margin-top: 80px;
+    width: 54%;
+}
+#course, #mch {
+    font-family: 'Lucida console', 'Courier New', monospace;
+    font-weight: 100;
+    color: #7A8797;
+    font-size: 11px;
+}
+
+#card {
+    display: flex;
+    border-style:  hidden hidden solid hidden ;
+    border-color: darkorange;
+    border-width: 2px;
+    width: 108%;
+    height: 200px;  
+    border-width: 5px;
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+    /* padding: ; */
+}
+
+.card-course {
+    display: flex;
+    text-align: center;
+    background-color: #0E2644;
+    color: aliceblue;
+    width: 60%;
+    padding: 40px;
+    
+    
+}
+.card-group {
+    background-color: #1A6A72;
+    width: 30%;
+    padding: 90px; 
+    position: relative;
+
+}
+.group {
+    background-color: darkorange;
+    padding: 5px;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+.introduction {
+    background-color: #0E2644;
+    padding: 1px 1px 1px 4px;
+    margin-top: 10px;
+    color: white;
+    text-indent: 50px;
+
+}
+.meaning {
+    background-color: #E7F4F5;
+    padding: 1px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-style:   hidden hidden hidden solid;
+    border-color: #1A6A72;
+    border-width: 5px;
+    
+}
+.subtopic {
+    background-color: #0E2644;
+    padding: 2px;
+    margin-top: 15px;
+    color: white;
+    text-indent: 50px;
+}
+#tabs, table ,td, th  {
+    padding: 5px;
+    padding: 15px 72px 10px 1px;
+    text-align: center;
+    border-collapse: collapse;
+    /* margin: auto;    */
+}
+#tabs{
+    width: 120%;
+}
+#table-shape {
+    padding: 15px 48px 15px 10px;
+    width: 100%;
+}
+#table-artery {
+    padding: 15px 48px 15px 10px;
+    width: 100%;
+}
+#table-ven {
+    padding: 15px 48px 15px 10px;
+    width: 100%;
+}
+#table-nerv {
+    padding: 15px 48px 10px;
+    width: 100%;
+}
+#table-lymph {
+    padding: 15px 48px  10px;
+    width: 100%;
+}
+tr:nth-child(odd) {
+    background-color: #E7F4F5;
+}
+th {
+    background-color: #1A6A72;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+    
+
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+.part1{
+    display: flex;
+    gap: 30px;
+}
+
+.part2 {
+    display: flex;
+    gap: 30px;
+    
+}
+.isthmus ,.uterine  ,.ampulla  ,.infidun{
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    margin-top: 30px;
+    border-style: solid hidden hidden hidden;
+    border-width: 5px;
+    
+
+}
+.infidun, .uterine {
+    border-color: #1A6A72; 
+    border-width: 5px;   
+}
+.isthmus, .ampulla{
+    border-color: burlywood;
+    border-width: 5px;
+}
+
+h3{
+    background-color: #0E2644;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-indent: 30px;
+}
+.functions {
+    display: flex;
+    gap: 30px;
+}
+
+#container2 {
+    background-color: #FAf7F2;
+    margin: auto;
+    padding: 30px;
+    margin-top: 20px;
+    width: 50%;
+}
+hr {
+    border: 1px solid;
+    color: #B1D8DA;
+    height: 0px;
+}
+.structure {
+    color: #1A6A72;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.container3 {
+    background-color: #FAf7F2;
+    margin: auto;
+    padding: 30px;
+    margin-top: 20px;
+    width: 50%; 
+}
+.note {
+    border-style: dotted;
+    padding: 10px;
+    border-color: #988154;
+}
+.container4 {
+    background-color: #FAf7F2;
+    margin: auto;
+    padding: 30px;
+    margin-top: 20px;
+    width: 50%;     
+}
+.card-ecto, .card-infer, .card-Endo {
+    display: flex;
+    gap: 30px;
+}
+.ecto, .infer, .endo, .tubal, .pinx, .pelv{
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    margin-top: 30px;
+    border-style: hidden hidden hidden solid ;
+    border-width: 5px;
+    font-size: 12px;
+}
+.cong {
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-style: hidden hidden hidden solid ;
+    border-width: 5px;
+}
+.ecto, .tubal, .pinx {
+    border-color: burlywood;
+}
+.infer, .cong, .pelv, .endo {
+    border-color: #1A6A72;
+}
+h4 {
+    color: #0E2644;
+}
+#conc {
+    background-color: #0E2644;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+.container5 {
+    background-color: #FAf7F2;
+    margin: auto;
+    padding: 40px;
+    margin-top: 30px;
+    width: 50%;
+}
+.lastpart {
+    background-color: #0E2644;
+    color: #7A8797;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lucida console', 'Courier New', monospace;
+    font-size: 10px;
+}
